@@ -1,0 +1,25 @@
+.currentCityH1{
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 6px 10px;
+}
+
+.currentCity{
+    text-align: center;
+    transition-duration: 0.5s;
+}
+
+#overlay{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -99;
+    background-color: rgba(0,0,0,0.3);
+}
+
+@media(max-width: 768px){
+    #overlay{
+        display: none;
+    }
+}

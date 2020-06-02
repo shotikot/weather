@@ -1,0 +1,36 @@
+.outside-switch{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 25px;
+    background: gray;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    transition-duration: 0.4s;
+}
+
+.inside-switch{
+    height: 23px;
+    width: 23px;
+    margin: 1px;
+    background: #ffffff;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    transition-duration: 0.4s;
+}
+
+.clicked{
+    background: #ffffff;
+}
+
+.clicked div{
+    margin-left: 26px;
+    background: #202930;
+}

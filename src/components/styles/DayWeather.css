@@ -1,0 +1,31 @@
+.dayWeatherContainer {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    padding: 10px 20px;
+    transition-duration: 0.3s;
+    color: #ffffff;
+}
+
+div.dayWeatherContainer:first-child {
+    background-color: rgba(169, 169, 169, 0.25);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.weathers h1 {
+    text-align: left;
+    padding-left: 15vw;
+}
+
+span {
+    margin: 6px;
+}
+
+@media(max-width: 768px) {
+    .dayWeatherContainer {
+        width: 30vw;
+    }
+}

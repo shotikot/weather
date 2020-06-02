@@ -1,0 +1,17 @@
+body{
+  background-color: #f8f8f8;
+  background-image: url('./images/bg.jpg');
+  background-size: 100%;
+}
+
+*{
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+@media(max-width: 768px){
+  body{
+    background-image: url('./images/mob.jpg');
+    background-size: 130%;
+    background-position: center 0;
+  }
+}
