@@ -47,7 +47,7 @@ export const changeCity = name => dispatch => {
   )
     .then(response => response.json())
     .then(json => {
-      if (json[0].key && json[0].LocalizedName) {
+      if (json.length !== 0) {
         dispatch({
           type: CHANGE_CITY,
           payload: {
